@@ -1,0 +1,91 @@
+html,body{
+    margin: 0;
+    text-align: center;
+}
+
+h1,p{
+    text-shadow: 5px 0 black;
+    color: #ae629e;
+    font-size: 1.5rem;
+
+}
+
+.bck-img{
+    background-image: url("images/img2.jpg");  
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    height: 70%;
+   
+}
+.dice, .main_dice{
+    margin: 1.5rem auto  ;
+    vertical-align: bottom;
+    width: 50%;
+    display: inline-block;
+    float: left;
+
+}
+.main_dice{
+    width: 70%;
+    float: none;
+}
+.rolling-dice{
+    display: none;
+}
+
+
+img{
+    width: 50%;
+    transition: transform 2.5s;
+    
+}
+
+
+.main_dice img:hover{
+    
+    transform: rotate(180deg);
+}
+
+
+
+h1{
+    font-family: 'Merriweather';
+    font-size: 4.5rem;
+     opacity: 0.8;
+}
+p{
+    font-family: 'Rock Salt', cursive;
+    margin-top: 0;
+    margin-bottom:1rem;
+}
+
+
+
+
+
+.btn{
+    bottom: 20px;
+    opacity: 0.8;
+    font-size: 1.5rem;
+    margin: 2rem auto ;
+    width: 20rem;
+    background-color: #ae629e ;
+    font-family: 'Merriweather';
+    padding: 2px 5px;
+    font-weight: 600;
+    color: white;
+
+}
+button:hover{
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+.btn2{
+    display: none;
+}
